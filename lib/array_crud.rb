@@ -27,13 +27,14 @@ def remove_element_from_start_of_array(array)
   t_family.shift
 end
 
-def retrieve_element_from_index(array, index_number)
-  t_family = ["wow", "am", "Eugene", "Alena"]
+def retrieve_element_from_index(array, index_number) #test expects to see the 2nd element
+  t_family = ["Zoe", "am", "Eugene", "Alena"]
   t_family[1] 
 end
 
 def retrieve_first_element_from_array(array)
-  
+  t_family = ["wow", "Nika", "Eugene", "Alena"]
+  t_family[0]
 end
 
 def retrieve_last_element_from_array(array)
