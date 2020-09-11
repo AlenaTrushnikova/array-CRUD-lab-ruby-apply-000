@@ -8,7 +8,7 @@ end
 
 def add_element_to_end_of_array(array, element)
   t_family = ["Zoe", "Nika", "Eugene", "Alena"]
-  t_family << ("mummy")
+  t_family << ("arrays!")
 end
 
 def add_element_to_start_of_array(array, element)
