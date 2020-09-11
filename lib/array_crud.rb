@@ -38,5 +38,6 @@ def retrieve_first_element_from_array(array)
 end
 
 def retrieve_last_element_from_array(array)
-  
+  t_family = ["Zoe", "Nika", "Eugene", "arrays!"]
+  t_family[-1]
 end
