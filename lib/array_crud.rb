@@ -3,11 +3,12 @@ def create_an_empty_array
 end
 
 def create_an_array
-  ["Zoe", "Nika", 2, 4]
+  t_family = ["Zoe", "Nika", "Eugene", "Alena"]
 end
 
 def add_element_to_end_of_array(array, element)
-  
+  t_family = ["Zoe", "Nika", "Eugene", "Alena"]
+  t_family.push("mummy")
 end
 
 def add_element_to_start_of_array(array, element)
