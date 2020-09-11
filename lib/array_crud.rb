@@ -7,12 +7,10 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  t_family = ["Zoe", "Nika", "Eugene", "Alena"]
   t_family.push("arrays!")
 end
 
 def add_element_to_start_of_array(array, element)
-  t_family = ["Zoe", "Nika", "Eugene", "Alena"]
   t_family.unshift("wow")
 end
 
