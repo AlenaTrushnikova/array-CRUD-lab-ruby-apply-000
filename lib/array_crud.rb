@@ -1,3 +1,4 @@
+#learn --fail-fast
 def create_an_empty_array
   []
 end
@@ -19,11 +20,11 @@ end
 def remove_element_from_end_of_array(array)
    t_family = ["Zoe", "Nika", "Eugene", "arrays!"]
    arrays = t_family.pop
-  
 end
 
 def remove_element_from_start_of_array(array)
-  
+  t_family = ["wow", "Nika", "Eugene", "Alena"]
+  t_family.shift
 end
 
 def retrieve_element_from_index(array, index_number)
